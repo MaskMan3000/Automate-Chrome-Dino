@@ -62,7 +62,7 @@ class Dino(Operations):
             self.hit_down()
 
 if __name__ == '__main__':
-    time.sleep(2)
+    time.sleep(2)                   #To go from your ide to chorme (alt + tab)
     pyautogui.press('space')        #To start the game
     while True:
         image = ImageGrab.grab().convert('L')
